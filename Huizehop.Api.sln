@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api", "HuizeHop.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api.Tests", "HuizeHop.Api.Tests\HuizeHop.Api.Tests.csproj", "{052A6C92-FE0D-47AD-9CEF-EBC1C13E8ECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api.Library", "HuizeHop.Api.Library\HuizeHop.Api.Library.csproj", "{48EC40A7-0584-4FF0-BFA5-F2479F7369CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{052A6C92-FE0D-47AD-9CEF-EBC1C13E8ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{052A6C92-FE0D-47AD-9CEF-EBC1C13E8ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{052A6C92-FE0D-47AD-9CEF-EBC1C13E8ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EC40A7-0584-4FF0-BFA5-F2479F7369CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EC40A7-0584-4FF0-BFA5-F2479F7369CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EC40A7-0584-4FF0-BFA5-F2479F7369CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EC40A7-0584-4FF0-BFA5-F2479F7369CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
