@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Huizehop.Api\HuizeHop.Api.csproj" />
+    <ProjectReference Include="..\HuizeHop.Api\HuizeHop.Api.csproj" />
   </ItemGroup>
 
 </Project>
