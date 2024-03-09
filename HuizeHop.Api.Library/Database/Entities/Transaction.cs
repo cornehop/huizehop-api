@@ -8,6 +8,8 @@ namespace HuizeHop.Api.Library.Database.Entities
         public string? Name { get; set; }
         public double Amount { get; set; }
         public string? Description { get; set; }
-        public Guid CategoryID { get; set; }
+
+        public Guid? CategoryID { get; set; }
+        public Category? Category { get; set; }
     }
 }
