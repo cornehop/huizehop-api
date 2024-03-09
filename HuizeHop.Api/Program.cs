@@ -1,4 +1,9 @@
+using HuizeHop.Api.Library.Database;
+
 var builder = WebApplication.CreateBuilder(args);
+
+using var db = new HuizeHopDbContext();
+Console.WriteLine($"Database location: {db.DbPath}.");
 
 // Add services to the container.
 
