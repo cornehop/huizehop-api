@@ -9,22 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="912da8e1-44de-4666-9f50-ffa88346040d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/IntegrationTests/BaseRepositoryTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/Mocks/ConfigurationMock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/Mocks/DbContextMock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/Mocks/MockEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/BaseClasses/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/BaseClasses/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/Entities/Account.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/HuizeHopDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/Interfaces/IEntityRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/ModelBuilderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/Repositories/AccountRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api.Tests/Controllers/PingControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api/Configuration/DependencyInjection/General.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api/Controllers/PingController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuizeHop.Api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.huizehop-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huizehop-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/IntegrationTests/BaseRepositoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HuizeHop.Api.Library.Tests/IntegrationTests/BaseRepositoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/BaseClasses/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HuizeHop.Api.Library/Database/BaseClasses/BaseRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.HuizeHop.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.HuizeHop.Api: https.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.HuizeHop.Api | #1.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.HuizeHop.Api: http.executor": "Run",
+    ".NET Launch Settings Profile.HuizeHop.Api: https.executor": "Run",
+    "HTTP Request.HuizeHop.Api | #1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.HuizeHop.Api: https">
     <configuration name="HuizeHop.Api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/HuizeHop.Api/HuizeHop.Api.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -169,7 +156,7 @@
       <updated>1752219759964</updated>
       <workItem from="1752219761288" duration="526000" />
       <workItem from="1752220423774" duration="11219000" />
-      <workItem from="1752826916787" duration="7126000" />
+      <workItem from="1752826916787" duration="11069000" />
     </task>
     <servers />
   </component>

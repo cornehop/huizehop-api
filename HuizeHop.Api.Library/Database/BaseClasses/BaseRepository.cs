@@ -32,9 +32,12 @@ public class BaseRepository<TEntity>(DbContext dbContext) : IEntityRepository<TE
     public void Delete(Guid id)
     {
         var entity = dbContext.Set<TEntity>().Find(id);
-        if (entity != null)
+        if (entity == null)
         {
-            dbContext.Set<TEntity>().Remove(entity);
+            return;
         }
+        
+        dbContext.Set<TEntity>().Remove(entity);
+        dbContext.SaveChanges();
     }
 }
