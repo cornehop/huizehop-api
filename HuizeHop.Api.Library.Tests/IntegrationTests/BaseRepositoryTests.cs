@@ -1,32 +1,34 @@
 ﻿using System.Data.Common;
+using HuizeHop.Api.Library.Database;
 using HuizeHop.Api.Library.Database.BaseClasses;
 using HuizeHop.Api.Library.Tests.Mocks;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
-namespace HuizeHop.Api.Library.Tests.Database.BaseClasses;
+namespace HuizeHop.Api.Library.Tests.IntegrationTests;
 
 public class BaseRepositoryTests
 {
-    private readonly DbConnection _connection;
-    private ConfigurationMock _config;
     private DbContextOptions<DbContextMock> _contextOptions;
 
     public BaseRepositoryTests()
     {
-        _connection = new SqliteConnection("Filename=:memory:");
-        _connection.Open();
+        var connection = new SqliteConnection("Filename=:memory:");
+        connection.Open();
         
-        _contextOptions = new DbContextOptionsBuilder<DbContextMock>().UseSqlite(_connection).Options;
+        _contextOptions = new DbContextOptionsBuilder<DbContextMock>().UseSqlite(connection).Options;
+
+        using (var context = new DbContextMock(_contextOptions))
+        {
+            context.Database.EnsureCreated();
+        }
     }
-    
-    DbContextMock CreateContext() => new DbContextMock(_config, _contextOptions);
 
     [Fact]
     public void Read_Returns_DatabaseEntity()
     {
         // Arrange
-        using var dbContext = CreateContext();
+        using var dbContext = new DbContextMock(_contextOptions);
         
         var someFieldTestValue = Guid.NewGuid().ToString();
         var anotherFieldTestValue = Guid.NewGuid().ToString();

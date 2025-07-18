@@ -1,0 +1,6 @@
+@HuizeHop.Api_HostAddress = http://localhost:5252
+
+GET {{HuizeHop.Api_HostAddress}}/Ping/
+Accept: application/json
+
+###

@@ -2,11 +2,13 @@
 
 namespace HuizeHop.Api.Controllers;
 
-public class PingController : Controller
+[ApiController]
+[Route("[controller]")]
+public class PingController : ControllerBase
 {
     // GET
     public IActionResult Index()
     {
-        return View();
+        return Ok();
     }
 }

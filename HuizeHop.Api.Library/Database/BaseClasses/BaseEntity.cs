@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HuizeHop.Api.Library.Database;
+namespace HuizeHop.Api.Library.Database.BaseClasses;
 
 /// <summary>
 /// Base class for database entities

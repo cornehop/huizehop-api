@@ -1,0 +1,7 @@
+﻿services:
+  huizehop.api:
+    image: huizehop.api
+    build:
+      context: .
+      dockerfile: HuizeHop.Api/Dockerfile
+

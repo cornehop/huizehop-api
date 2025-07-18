@@ -1,6 +1,9 @@
-﻿namespace HuizeHop.Api.Library.Tests.Mocks;
+﻿using HuizeHop.Api.Library.Database.BaseClasses;
 
-public class MockEntity
+namespace HuizeHop.Api.Library.Tests.Mocks;
+
+public class MockEntity : BaseEntity
 {
-    
+    public required string SomeField { get; set; }
+    public required string AnotherField { get; set; }
 }

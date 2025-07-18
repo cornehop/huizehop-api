@@ -1,6 +1,12 @@
-﻿namespace HuizeHop.Api.Configuration.DependencyInjection;
+﻿using HuizeHop.Api.Library.Database;
 
-public class General
+namespace HuizeHop.Api.Configuration.DependencyInjection;
+
+public static class General
 {
-    
+    public static void RegisterDependencies(this IServiceCollection services)
+    {
+        // Database
+        services.AddDbContext<HuizeHopDbContext>();
+    }
 }

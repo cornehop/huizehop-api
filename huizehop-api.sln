@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api", "HuizeHop.Api\HuizeHop.Api.csproj", "{AA86A036-73F7-4EC7-89AF-434FCAC1BC43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52ECCB5A-6703-447F-B53E-39FFD7AC85DF}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api.Tests", "HuizeHop.Api.Tests\HuizeHop.Api.Tests.csproj", "{AE7E35F9-44E8-4470-B7E4-10E4442119EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api.Library", "HuizeHop.Api.Library\HuizeHop.Api.Library.csproj", "{29BE6E96-65EF-4C1C-A224-67E596B8E506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuizeHop.Api.Library.Tests", "HuizeHop.Api.Library.Tests\HuizeHop.Api.Library.Tests.csproj", "{51B32187-1E52-422B-8E77-0A0221860782}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA86A036-73F7-4EC7-89AF-434FCAC1BC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA86A036-73F7-4EC7-89AF-434FCAC1BC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA86A036-73F7-4EC7-89AF-434FCAC1BC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA86A036-73F7-4EC7-89AF-434FCAC1BC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7E35F9-44E8-4470-B7E4-10E4442119EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7E35F9-44E8-4470-B7E4-10E4442119EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7E35F9-44E8-4470-B7E4-10E4442119EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7E35F9-44E8-4470-B7E4-10E4442119EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BE6E96-65EF-4C1C-A224-67E596B8E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BE6E96-65EF-4C1C-A224-67E596B8E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BE6E96-65EF-4C1C-A224-67E596B8E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BE6E96-65EF-4C1C-A224-67E596B8E506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B32187-1E52-422B-8E77-0A0221860782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B32187-1E52-422B-8E77-0A0221860782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B32187-1E52-422B-8E77-0A0221860782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B32187-1E52-422B-8E77-0A0221860782}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
